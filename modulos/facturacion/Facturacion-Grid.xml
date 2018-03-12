@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   Clients-Grid.xml
+    Autor:  Victor Gutierrez
+    Date:   14-Jun-2016
+    Desc:   Estructura xml para la grilla del modulo Clientes.
+    
+***************************************************************************************
+    
+    Autor:  Victor Gutierrez
+    Date:   16-Jun-2016
+    Desc:   Se ajustó el tamaño de las diversas columnas de la grilla.
+    
+-->
+<rows>
+    <head>
+        <beforeInit>
+            <call command='setEditable'>
+                <param>false</param>
+            </call>
+            <call command='enableMultiline'>
+                <param>true</param>
+            </call>
+        </beforeInit>
+        <column type="ro"   id="alumno"     width="140">Alumno</column>
+        <column type="ro"   id="fecha"      width="250">Fecha</column>
+        <column type="ro"   id="factura"    width="140">Factura</column>
+        <column type="ro"   id="concepto"   width="140">Concepto</column>
+        <column type="ro"   id="valor"      width="120">Valor</column>
+        <column type="ro"   id="abonos"     width="220">Abonos</column>
+    </head>
+</rows>

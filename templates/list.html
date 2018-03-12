@@ -1,0 +1,124 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <style>
+      
+            .content {
+                display:table;
+            }
+            .list {
+                width   : 100%;
+                margin-top: 40px;
+            }
+            .listLeft {
+                width   : 45%;
+                float   : left;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            .listLeft:hover {
+                 background-color: #eeeeee;
+            }
+            .listRight:hover {
+                 background-color: #eeeeee;
+            }
+            .listRight {
+                width   : 45%;
+                float   : right;
+                margin-right: 20px;
+                margin-top: 10px;
+                /*
+                border-right : 1px solid #eeeeee;
+                border-top : 1px solid #eeeeee;
+                border-left : 1px solid #eeeeee;
+                */
+            }
+            .list-icon {
+                display         : table-cell;
+                vertical-align  : middle;
+                text-align      : center;
+            }
+            .list-icon img {
+                width     : 80px;
+                padding     : 5px;
+            }
+            .list:hover {
+                cursor      : pointer;
+                background-color: #eeeeee;
+            }
+            .list-text {
+                display         : table-cell;
+                vertical-align  : top;
+                padding         : 10px;
+            }
+            .list-text h2 {
+                margin      : 0;
+                font-family   : Roboto,Arial,Helvetica;
+                font-weight   : bold;
+                font-size   : 14px;
+                color     : #404040;
+            }
+            .list-text p {
+                font-family   : Roboto,Arial,Helvetica;
+                font-size   : 12px;
+                text-align    : justify;
+                color     : #404040;
+                line-height   : normal;
+            }
+        </style>
+       
+    </head>
+    <body>
+        <div class="content">
+            <div id="fila1" class="list">
+                <div id="divCuentas" class="listLeft" onClick="parent.alertar()">
+                    <div class="list-icon"><img src="../resources/user_admin.png"></div>
+                    <div class="list-text">
+                        <h2 id="tituloConfCuentas"><b>Configuracion de Cuentas</b></h2>
+                        <p>Configure conceptos de cobro, tipos de pago, categorías de la escuela, números tributarios (Ej. Resolución de DIAN)</p>
+                    </div>
+                </div>
+                <div id="adminUser" class="listRight" onClick="">
+                    <div class="list-icon"><img src="../resources/user_admin.png"></div>
+                    <div class="list-text">
+                        <h2 id="tituloAdminUsers">Administración de Usuarios</h2>
+                        <p>Gestione los usuarios de la aplicación, cambios y recuperación de contraseñas.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="fila2" class="list">
+                <div id="cuentass" class="listLeft" onClick="">
+                    <div class="list-icon"><img src="../resources/user_admin.png"></div>
+                    <div class="list-text">
+                        <h2 id="tituloConfCuentas"><b>Estudiantes</b></h2>
+                        <p>Gestión de estudiantes, hojas de vida, Inscripciones, pagos y extractos.</p>
+                    </div>
+                </div>
+                <div id="admicsnUser" class="listRight" onClick="">
+                    <div class="list-icon"><img src="../resources/user_admin.png"></div>
+                    <div class="list-text">
+                        <h2 id="titulcsoAdminUsers">Auditoria</h2>
+                        <p>Auditorías a conceptos de cobro, tipo de pago categorías, resolución DIAN, hoja de vida alumnos y facturación.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="fila3" class="list">
+                <div id="cuentas" class="listLeft" onClick="">
+                    <div class="list-icon"><img src="../resources/user_admin.png"></div>
+                    <div class="list-text">
+                        <h2 id="titulocsConfCuentas"><b>Gestion Financiera y contable</b></h2>
+                        <p>Recuperar información bancaria, pagos de alumnos, notas crédito, pagos a favor, ajustes contables, pagos modificados, resumen diario.</p>
+                    </div>
+                </div>
+                <div id="adminUcscser" class="listRight" onClick="">
+                    <div class="list-icon"><img src="../resources/user_admin.png"></div>
+                    <div class="list-text">
+                        <h2 id="tituloAdminUsers">Estadisticas y Reportes</h2>
+                        <p>Ingresos, gastos, movimientos de cartera, pagos, clientes, construir un reporte.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

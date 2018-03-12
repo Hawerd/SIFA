@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sidebar>
+    <item id="configuracion"    text="Configuracion"    icon="settings.svg"/>
+    <item id="facturacion"      text="Facturacion"      icon="receipt.svg"/>
+    <item id="inventario"       text="Inventario"       icon="briefcase.svg"/>
+    <item id="agenda"           text="Agenda"           icon="agenda.svg"/>
+</sidebar>
+

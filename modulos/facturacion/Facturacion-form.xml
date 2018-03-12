@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+    <item 	type="fieldset" 
+                name="fieldset"
+                offsetLeft="5"
+                offsetTop="5"
+                width="auto">
+        
+        <item 	type="settings"
+                labelWidth="100"
+                labelAlign="left"
+                inputWidth="230"/>
+	
+        <item 	type="input"    
+                name="fecha"    
+                label="Fecha:" 
+                required="true" 
+                maxLength="30" />                
+        
+        <item 	type="input"    
+                name="tipoPago" 
+                label="Tipo de pago:"   
+                required="true" 
+                maxLength="30" />
+        
+        <item 	type="input"    
+                name="factura" 
+                label="Factura:"   
+                required="true" 
+                maxLength="30" />
+        
+        <item 	type="input"    
+                name="alumno" 
+                label="Alumno:"   
+                required="true" 
+                maxLength="30" />                
+
+        <item 	type="input"    
+                name="tercero" 
+                label="Tercero:"   
+                required="true" 
+                maxLength="30" />   
+        
+        <item type="newcolumn" offset="20"/>             
+        
+        <item 	type="input"    
+                name="detalle" 
+                label="Detalle:"   
+                required="true" 
+                maxLength="30" /> 
+        
+        <item 	type="input"    
+                name="concepto"
+                label="Concepto:"   
+                required="true" 
+                maxLength="30" /> 
+        
+        <item 	type="input"    
+                name="categoria" 
+                label="Categoria:"   
+                required="true" 
+                maxLength="30" /> 
+        
+        <item 	type="input"    
+                name="estado" 
+                label="Estado:"   
+                required="true" 
+                maxLength="30" /> 
+        
+        <item 	type="input"    
+                name="saldoAlumno" 
+                label="Saldo Alumno:"   
+                required="true" 
+                maxLength="30" />                                 
+        
+    </item>
+    
+    <item type="block"	width="auto" blockOffset="10" >
+    
+        <item 	type="settings"
+                labelWidth="100"
+                labelAlign="left"
+                inputWidth="100"/>
+        
+        <item 	type="input"    
+                name="ajuste" 
+                label="Doc Ajuste:"   
+                required="true"
+                maxLength="30" />
+        
+        <item 	type="input"    
+                name="fechaAjuste" 
+                label="Fecha Ajuste:"   
+                required="true"
+                maxLength="30" />
+
+        <item type="newcolumn" offset="20"/> 
+        
+        <item 	type="input"    
+                name="valorAjuste" 
+                label="Valor Ajuste:"   
+                required="true"
+                maxLength="30" />
+        
+        <item 	type="input"    
+                name="ajusteFactura" 
+                label="Factura:"   
+                required="true"
+                maxLength="30" />
+        
+        <item type="newcolumn" offset="20"/> 
+        
+        <item 	type="input"    
+                name="ajusteConcepto" 
+                label="Concepto:"   
+                required="true"
+                labelWidth="80"
+                maxLength="30" />
+        
+        <item 	type="input"    
+                name="ajusteDetalle" 
+                label="Detalle:"   
+                required="true"
+                labelWidth="80"
+                maxLength="30" />    
+        
+    </item>
+</items>
